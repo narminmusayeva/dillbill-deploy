@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  background-color: #f4f8fb;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+}
+header .maindiv {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 18px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main nav {
+  margin-top: 30px;
+}
+main .new {
+  background-color: #883988;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+main .buttons button {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(128, 128, 128);
+}
+main .buttons .sign-up {
+  color: #269cf0;
+  border: 1px solid #269cf0;
+}
+main .online-english-main-div h3 {
+  font-size: 25px;
+}
+main .online-english-main-div h3 span {
+  color: #269cf0;
+}
+main .online-english-main-div button {
+  color: white;
+  background-color: #269cf0;
+}
+main .second-page-section {
+  margin-top: 170px;
+}
+main .right-part-second-page-main-div {
+  font-size: 26px;
+  font-weight: 400;
+}
+main .right-part-second-page {
+  text-align: center;
+  padding-top: 40px;
+}
+main .right-part-second-page h5 {
+  color: #828585;
+}
+main .line {
+  width: 250px;
+  height: 1px;
+  background-color: gray;
+  margin-left: 19%;
+  margin-top: 20px;
+}
+
+.pricing-page-main .login-section .how-many-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pricing-page-main .login-section .how-many-lessons h4 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+}
+.pricing-page-main .login-section .three-group {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.pricing-page-main .cards-prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.pricing-page-main .cards-prices .card-1 {
+  text-align: center;
+  height: 330px;
+  width: 230px;
+  background-color: white;
+  border-radius: 8px;
+}
+.pricing-page-main .cards-prices .card-1 .azn {
+  color: #269cf0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.pricing-page-main .cards-prices .card-1 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.pricing-page-main .cards-prices .card-1 .lesson-8 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.pricing-page-main .cards-prices .card-2 {
+  border: 2px solid yellow;
+  text-align: center;
+  height: 330px;
+  width: 230px;
+  background-color: white;
+  border-radius: 8px;
+}
+.pricing-page-main .cards-prices .card-2 .azn {
+  color: #269cf0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.pricing-page-main .cards-prices .card-2 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.pricing-page-main .cards-prices .card-2 .lesson-8 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.pricing-page-main .cards-prices .card-3 {
+  text-align: center;
+  height: 330px;
+  width: 230px;
+  background-color: white;
+  border-radius: 8px;
+}
+.pricing-page-main .cards-prices .card-3 .azn {
+  color: #269cf0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.pricing-page-main .cards-prices .card-3 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.pricing-page-main .cards-prices .card-3 .lesson-8 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+footer {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+.pricing a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+main nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .right-part-nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+main .pricing {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+main .new {
+  height: 18px;
+  width: 33px;
+  border: none;
+  border-radius: 4px;
+}
+@media (max-width: 992px) {
+  main .maindiv {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 320px) {
+  main .maindiv {
+    margin-left: 80px;
+    flex-wrap: wrap;
+  }
+  main .right-part-nav {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  main .right-part-nav .buttons button {
+    height: 25px;
+    width: 60px;
+  }
+  main .online-english-main-div {
+    margin-left: 19px;
+    flex-wrap: wrap;
+  }
+  main p {
+    font-size: 10px;
+  }
+  main .cards-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .second-page-section .second-page {
+    display: flex;
+    flex-direction: column;
+  }
+  main .second-page-section .second-page img {
+    height: 320px;
+    width: 280px;
+  }
+  main .second-page-section .right-part-second-page-main-div h4 {
+    margin-left: 20px;
+  }
+  main .second-page-section .right-part-second-page-main-div .right-part-second-page {
+    margin-left: 20px;
+    height: 200px;
+    width: 280px;
+  }
+  main .second-page-section .right-part-second-page-main-div .right-part-second-page .man-image {
+    height: 80px;
+    width: 90px;
+  }
+}
+main .online-english-main-div {
+  margin-top: 60px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+main .online-english-main-div p {
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+}
+main .cards-section {
+  margin-top: 130px;
+}
+main .cards-section .cards-div {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+main .second-page {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .second-page h4 {
+  font-family: "Open Sans", sans-serif;
+}
+main .second-page h4 span {
+  color: #3dbe52;
+}
+main .second-page .right-part-second-page {
+  height: 440px;
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+}
+main .second-page .right-part-second-page .man-image {
+  height: 80px;
+  border-radius: 50%;
+}
+main .second-page .right-part-second-page p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+main .second-page .right-part-second-page .zara-logo {
+  height: 60px;
+  width: 90px;
+}
+main .second-page .right-part-second-page .zara-logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 30px;
+}
+main .second-page .right-part-second-page h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  word-spacing: 4px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+main .right-part-nav .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .right-part-nav .buttons button {
+  height: 35px;
+  width: 64px;
+  border-radius: 4px;
+}
+main .online-english-main-div button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main button {
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+main .online-english-main-div button {
+  margin-top: 25px;
+}
+
+.cards-prices button {
+  height: 40px;
+  width: 200px;
+  background-color: #1e9af1;
+  border: none;
+  color: white;
+  margin-top: 80px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+header .maindiv {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  justify-content: end;
+}
+header .maindiv .english-div {
+  display: flex;
+  align-items: center;
+}
+header .maindiv .english-div select {
+  height: 33px;
+  width: 65px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+header .phone-div {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 992px) {
+  header .maindiv {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 320px) {
+  header .maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.pricing-page-main .login-section .how-many-lessons {
+  margin-top: 50px;
+}
+.pricing-page-main .login-section .how-many-lessons h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-page-main .login-section .three-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.pricing-page-main .cards-prices .card-1 .azn-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing-page-main .cards-prices .card-2 .azn-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing-page-main .cards-prices .card-3 .azn-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+  .cards-prices {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dill-bill-logo-footer {
+    margin-left: 30%;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-boxs;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+footer .dill-bill-logo-footer {
+  margin-top: 50px;
+}
+footer .footer-div {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+footer .footer-div .icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+footer ul {
+  line-height: 35px;
+  list-style: none;
+}
+footer ul p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 320px) {
+  .footer-div {
+    flex-wrap: wrap;
+    margin-left: 24px;
+  }
+}/*# sourceMappingURL=main.css.map */

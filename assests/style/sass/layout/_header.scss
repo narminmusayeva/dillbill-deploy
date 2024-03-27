@@ -1,0 +1,85 @@
+header {
+  @include flexBox;
+
+  .maindiv {
+    @include flexBox;
+    @include container;
+
+    justify-content: end;
+
+    .english-div {
+      @include flexBox;
+      select {
+        height: 33px;
+        width: 65px;
+        border: none;
+        background-color: black;
+        color: white;
+        @include font;
+      }
+    }
+  }
+  .phone-div {
+    display: flex;
+    align-items: center;
+    @include font;
+  }
+  @media (max-width: 992px) {
+    .maindiv {
+      max-width: 800px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+  @media (max-width: 320px) {
+    .maindiv {
+      @include flexBox;
+      justify-content: center;
+    }
+  }
+}
+.pricing-page-main {
+  .login-section {
+    .how-many-lessons {
+      margin-top: 50px;
+      h4 {
+        @include flexBox;
+        justify-content: center;
+      }
+    }
+    .three-group {
+      @include flexBox;
+      justify-content: center;
+      gap: 60px;
+    }
+  }
+  .cards-prices {
+    .card-1 {
+      .azn-icon-div {
+        @include flexBox;
+        justify-content: space-between;
+      }
+    }
+    .card-2 {
+      .azn-icon-div {
+        @include flexBox;
+        justify-content: space-between;
+      }
+    }
+    .card-3 {
+      .azn-icon-div {
+        @include flexBox;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .cards-prices {
+    @include flexBox;
+    flex-direction: column;
+  }
+  .dill-bill-logo-footer {
+    margin-left: 30%;
+  }
+}
